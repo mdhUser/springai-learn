@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: springai-frontend
+    ports:
+      - "3000:80"
+    volumes:
+      - ./html:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - springai-network
+    restart: unless-stopped
+    depends_on:
+      - backend
+
+  backend:
+    image: placeholder
+    container_name: springai-backend
+    ports:
+      - "8090:8090"
+    networks:
+      - springai-network
+    restart: unless-stopped
+
+networks:
+  springai-network:
+    driver: bridge

@@ -1,0 +1,146 @@
+25-12-08.17:53:06.405 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-12-08.17:53:06.418 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.10 with PID 73884 (started by maxwell in /Users/maxwell/workspcae/springai-learn/springai-learn-app)
+25-12-08.17:53:06.418 [main            ] INFO  RAGTest                - No active profile set, falling back to 1 default profile: "default"
+25-12-08.17:53:06.809 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-08.17:53:06.810 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-08.17:53:06.823 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+25-12-08.17:53:07.196 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-12-08.17:53:07.313 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@1c7843c3
+25-12-08.17:53:07.314 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-12-08.17:53:09.901 [main            ] INFO  Version                - Redisson 3.44.0
+25-12-08.17:53:09.926 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-12-08.17:53:10.019 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.17:53:10.029 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.17:53:10.339 [main            ] INFO  RAGTest                - Started RAGTest in 4.21 seconds (process running for 4.592)
+25-12-08.17:53:12.646 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-12-08.17:53:12.647 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-12-08.17:56:50.858 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-12-08.17:56:50.869 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.10 with PID 74162 (started by maxwell in /Users/maxwell/workspcae/springai-learn/springai-learn-app)
+25-12-08.17:56:50.870 [main            ] INFO  RAGTest                - No active profile set, falling back to 1 default profile: "default"
+25-12-08.17:56:51.205 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-08.17:56:51.206 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-08.17:56:51.218 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+25-12-08.17:56:51.534 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-12-08.17:56:51.620 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@93ce24d
+25-12-08.17:56:51.620 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-12-08.17:56:52.985 [main            ] INFO  Version                - Redisson 3.44.0
+25-12-08.17:56:52.998 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-12-08.17:56:53.058 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.17:56:53.066 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.17:56:53.381 [main            ] INFO  RAGTest                - Started RAGTest in 2.704 seconds (process running for 3.096)
+25-12-08.17:56:54.468 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-12-08.17:56:54.469 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-12-08.19:25:08.526 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-12-08.19:25:08.533 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.10 with PID 80725 (started by maxwell in /Users/maxwell/workspcae/springai-learn/springai-learn-app)
+25-12-08.19:25:08.534 [main            ] INFO  RAGTest                - No active profile set, falling back to 1 default profile: "default"
+25-12-08.19:25:08.903 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-08.19:25:08.904 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-08.19:25:08.917 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+25-12-08.19:25:09.254 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-12-08.19:25:09.356 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@6abe62bb
+25-12-08.19:25:09.356 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-12-08.19:25:10.963 [main            ] INFO  Version                - Redisson 3.44.0
+25-12-08.19:25:10.978 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-12-08.19:25:11.041 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.19:25:11.051 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.19:25:11.347 [main            ] INFO  RAGTest                - Started RAGTest in 3.002 seconds (process running for 3.378)
+25-12-08.19:25:12.571 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-12-08.19:25:12.572 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-12-08.19:25:44.238 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-12-08.19:25:44.246 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.10 with PID 80779 (started by maxwell in /Users/maxwell/workspcae/springai-learn/springai-learn-app)
+25-12-08.19:25:44.247 [main            ] INFO  RAGTest                - No active profile set, falling back to 1 default profile: "default"
+25-12-08.19:25:44.598 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-08.19:25:44.599 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-08.19:25:44.613 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-12-08.19:25:44.957 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-12-08.19:25:45.046 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@709d6de5
+25-12-08.19:25:45.047 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-12-08.19:25:47.025 [main            ] INFO  Version                - Redisson 3.44.0
+25-12-08.19:25:47.040 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-12-08.19:25:47.106 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.19:25:47.119 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.19:25:47.413 [main            ] INFO  RAGTest                - Started RAGTest in 3.354 seconds (process running for 3.801)
+25-12-08.19:25:48.824 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-12-08.19:25:48.825 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-12-08.19:42:42.225 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-12-08.19:42:42.235 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.10 with PID 82482 (started by maxwell in /Users/maxwell/workspcae/springai-learn/springai-learn-app)
+25-12-08.19:42:42.235 [main            ] INFO  RAGTest                - No active profile set, falling back to 1 default profile: "default"
+25-12-08.19:42:42.550 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-08.19:42:42.551 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-08.19:42:42.562 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+25-12-08.19:42:42.893 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-12-08.19:42:42.982 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@6cee903a
+25-12-08.19:42:42.982 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-12-08.19:42:44.422 [main            ] INFO  Version                - Redisson 3.44.0
+25-12-08.19:42:44.435 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-12-08.19:42:44.497 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.19:42:44.510 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.19:42:44.791 [main            ] INFO  RAGTest                - Started RAGTest in 2.735 seconds (process running for 3.14)
+25-12-08.19:42:45.975 [main            ] INFO  RAGTest                - 上传完成
+25-12-08.19:42:45.989 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-12-08.19:42:45.990 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-12-08.20:08:10.618 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/maxwell/DevelopmentTools/Maven/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+25-12-08.20:08:10.627 [main            ] INFO  RAGTest                - Starting RAGTest using Java 17.0.10 with PID 84923 (started by maxwell in /Users/maxwell/workspcae/springai-learn/springai-learn-app)
+25-12-08.20:08:10.627 [main            ] INFO  RAGTest                - No active profile set, falling back to 1 default profile: "default"
+25-12-08.20:08:10.975 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-12-08.20:08:10.976 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-12-08.20:08:10.992 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-12-08.20:08:11.351 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-12-08.20:08:11.448 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@1884e671
+25-12-08.20:08:11.449 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-12-08.20:08:12.966 [main            ] INFO  Version                - Redisson 3.44.0
+25-12-08.20:08:12.980 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-12-08.20:08:13.040 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.20:08:13.049 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+25-12-08.20:08:13.342 [main            ] INFO  RAGTest                - Started RAGTest in 2.911 seconds (process running for 3.316)
+25-12-08.20:12:45.144 [main            ] INFO  RAGTest                - 测试结果：{"metadata":{"promptMetadata":{},"rateLimit":{"requestsLimit":0,"requestsRemaining":0,"requestsReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true},"tokensLimit":0,"tokensRemaining":0,"tokensReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true}},"usage":{"generationTokens":0,"promptTokens":0,"totalTokens":0}},"result":{"metadata":{"contentFilterMetadata":{"generationTokens":264,"promptTokens":79,"totalTokens":343},"finishReason":"unknown"},"output":{"content":"<think>\n好，我现在要帮用户处理这个问题。用户提供了一段关于Maxwell的信息，并要求我生成一个回复，但是有特定的条件：不能使用“你”字，要用中文回应，并且必须是基于提供的信息来回答。\n\n首先，用户的信息明确提到他是Maxwell，大厂外包仔，就职于美团大众点评。所以，我的任务就是从这段信息中提取相关个人信息并用中文表达出来。\n\n接下来，我需要确定用户的具体需求是什么。他们可能是在做招聘或者面试时，遇到了关于Maxwell的内部资料，想要获取更多信息来进行求职或面试。因此，回复不仅要提供基本信息，还要结构清晰，方便查询。\n\n然后，我会分析如何组织这些信息。通常，这类职位_info会包含以下部分：姓名、职位、公司名称、部门、薪资范围、工作地点、技能要求、工作经验、教育背景等。因此，在回应中需要涵盖所有这些关键点，并确保语言自然流畅，符合中文的表达习惯。\n\n最后，我需要确保不使用“你”字，并且每个信息都用简洁明了的方式呈现出来。同时，回复要符合用户的期望，帮助他们快速获取所需的信息。\n</think>\n\n我是Maxwell，大厂外包仔，就职于美团大众点评。","media":[],"messageType":"ASSISTANT","properties":{}}},"results":[{"metadata":{"contentFilterMetadata":{"generationTokens":264,"promptTokens":79,"totalTokens":343},"finishReason":"unknown"},"output":{"content":"<think>\n好，我现在要帮用户处理这个问题。用户提供了一段关于Maxwell的信息，并要求我生成一个回复，但是有特定的条件：不能使用“你”字，要用中文回应，并且必须是基于提供的信息来回答。\n\n首先，用户的信息明确提到他是Maxwell，大厂外包仔，就职于美团大众点评。所以，我的任务就是从这段信息中提取相关个人信息并用中文表达出来。\n\n接下来，我需要确定用户的具体需求是什么。他们可能是在做招聘或者面试时，遇到了关于Maxwell的内部资料，想要获取更多信息来进行求职或面试。因此，回复不仅要提供基本信息，还要结构清晰，方便查询。\n\n然后，我会分析如何组织这些信息。通常，这类职位_info会包含以下部分：姓名、职位、公司名称、部门、薪资范围、工作地点、技能要求、工作经验、教育背景等。因此，在回应中需要涵盖所有这些关键点，并确保语言自然流畅，符合中文的表达习惯。\n\n最后，我需要确保不使用“你”字，并且每个信息都用简洁明了的方式呈现出来。同时，回复要符合用户的期望，帮助他们快速获取所需的信息。\n</think>\n\n我是Maxwell，大厂外包仔，就职于美团大众点评。","media":[],"messageType":"ASSISTANT","properties":{}}}]}
+25-12-08.20:12:45.170 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-12-08.20:12:45.173 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
