@@ -83,6 +83,11 @@ public class RagController implements IRagService {
 
         FileUtils.deleteDirectory(new File(localPath));
 
+        RList<String> elements = redissonClient.getList("ragTag");
+        if (!elements.contains(repoProjectName)) {
+            elements.add(repoProjectName);
+        }
+
         Git git = Git.cloneRepository()
                 .setURI(repoUrl)
                 .setDirectory(new File(localPath))
@@ -118,14 +123,7 @@ public class RagController implements IRagService {
         });
 
         FileUtils.deleteDirectory(new File(localPath));
-
-        RList<String> elements = redissonClient.getList("ragTag");
-        if (!elements.contains(repoProjectName)) {
-            elements.add(repoProjectName);
-        }
-
         git.close();
-
         log.info("遍历解析路径，上传完成:{}", repoUrl);
 
         return Response.<String>builder().code("0000").info("调用成功").build();
