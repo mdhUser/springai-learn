@@ -128,7 +128,7 @@
        formData.append('ragTag', document.getElementById('title').value);
        files.forEach(file => formData.append('file', file));
 
-       axios.post('http://localhost:8090/api/v1/rag/file/upload', formData)
+       axios.post('http://localhost:8090/api/v1/rag/upload_file', formData)
          .then(response => {
            if (response.data.code === '0000') {
              // 成功提示并关闭窗口

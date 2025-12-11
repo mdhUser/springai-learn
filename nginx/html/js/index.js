@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         fetch('http://localhost:8090/api/v1/rag/query_rag_tag_list')
             .then(response => response.json())
             .then(data => {
-                if (data.code === '0000' && data.data) {
+                if (data.code === '200' && data.data) {
                     // 清空现有选项（保留第一个默认选项）
                     while (ragSelect.options.length > 1) {
                         ragSelect.remove(1);
