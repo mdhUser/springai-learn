@@ -39,6 +39,11 @@ spring:
       base-url: https://apis.itedus.cn/
       api-key: sk-iVQ3D5VdpTNIP6UKEf4d2c3436Af4c18812b6034C375A293
       embedding-model: text-embedding-ada-002
+#    vertex:
+#      ai:
+#        gemini:
+#          project-id: your-project-id
+#          location: us-central1
     rag:
       embed: nomic-embed-text #nomic-embed-text、text-embedding-ada-002
 

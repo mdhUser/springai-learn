@@ -233,12 +233,22 @@ function appendMessage(content, isAssistant = false, saveToStorage = true) {
     const aiModelValue = aiModelSelect.value; // 获取选中的 aiModel 的 value
     const aiModelModel = aiModelSelect.options[aiModelSelect.selectedIndex].getAttribute('model'); // 获取选中的 aiModel 的 model 属性
 
+    // 添加调试信息
+    console.log('调试信息:', {
+        ragTag: ragTag,
+        aiModelValue: aiModelValue,
+        aiModelModel: aiModelModel,
+        hasRagTag: !!ragTag
+    });
+
     let url;
 
     if (ragTag) {
         url = `http://localhost:8090/api/v1/${aiModelValue}/generate_stream_rag?message=${encodeURIComponent(message)}&ragTag=${encodeURIComponent(ragTag)}&model=${encodeURIComponent(aiModelModel)}`;
+        console.log('使用RAG接口:', url);
     } else {
         url = `http://localhost:8090/api/v1/${aiModelValue}/generate_stream?message=${encodeURIComponent(message)}&model=${encodeURIComponent(aiModelModel)}`;
+        console.log('使用普通接口:', url);
     }
 
     currentEventSource = new EventSource(url);
